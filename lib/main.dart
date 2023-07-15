@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
       isAuthenticated = await _localAuthentication.authenticate(
         localizedReason: 'Kirish uchun barmoq izingizni joylashtiring',
       );
-      // Autentifikatsiya muvaffaqiyatli bo'lganini aytish
+      // Autentifikatsiya muvaffaqiyatli bo'lganini aytish.
       if (isAuthenticated) {
         Navigator.push(
           context,
