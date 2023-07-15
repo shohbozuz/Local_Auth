@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
   Future<bool> authenticateUser(BuildContext context) async {
     bool isAuthenticated = false;
     try {
-      // Barmoq izidan foydalanishni tekshirish
+      // Barmoq izidan foydalanishni tekshirish.
       isAuthenticated = await _localAuthentication.authenticate(
         localizedReason: 'Kirish uchun barmoq izingizni joylashtiring',
       );
